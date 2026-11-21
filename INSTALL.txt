@@ -1,0 +1,15 @@
+INSTALL
+=======
+
+1. Cierra Combustor.
+2. Copia CombustorProbeCharts.dll a:
+   C:\Program Files (x86)\Steam\steamapps\common\EngineSimulator\Mods\
+3. Abre el juego.
+4. Revisa MelonLoader\Latest.log: debe decir "Probe Charts ready. F8 opens the probe telemetry panel."
+5. Pulsa F8, o el chip PROBE de la esquina inferior derecha, o el boton del menu de pausa.
+
+Si el mod no aparece:
+- Comprueba que MelonLoader esta instalado en la carpeta del juego.
+- Comprueba que la DLL esta en Mods y el juego estaba cerrado al copiarla.
+- Revisa que el juego ha generado MelonLoader\Il2CppAssemblies.
+- Si el juego se ha actualizado, recompila contra los nuevos Il2CppAssemblies.
